@@ -1,0 +1,102 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'docpad-plugin-bal-util@2',
+1 verbose cli   '--save' ]
+2 info using npm@2.0.2
+3 info using node@v0.10.29
+4 warn package.json no-skeleton.docpad@0.1.0 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'docpad-plugin-bal-util@2', null ]
+7 verbose cache add spec="docpad-plugin-bal-util@2" args=["docpad-plugin-bal-util@2",null]
+8 verbose parsed spec { raw: 'docpad-plugin-bal-util@2',
+8 verbose parsed spec   scope: null,
+8 verbose parsed spec   name: 'docpad-plugin-bal-util',
+8 verbose parsed spec   rawSpec: '2',
+8 verbose parsed spec   spec: '>=2.0.0 <3.0.0',
+8 verbose parsed spec   type: 'range' }
+9 verbose parsed spec { raw: 'docpad-plugin-bal-util@2',
+9 verbose parsed spec   scope: null,
+9 verbose parsed spec   name: 'docpad-plugin-bal-util',
+9 verbose parsed spec   rawSpec: '2',
+9 verbose parsed spec   spec: '>=2.0.0 <3.0.0',
+9 verbose parsed spec   type: 'range' }
+10 verbose addNamed [ 'docpad-plugin-bal-util', '>=2.0.0 <3.0.0' ]
+11 verbose addNamed [ null, '>=2.0.0 <3.0.0' ]
+12 silly lockFile 788da495-cpad-plugin-bal-util-2-0-0-3-0-0 docpad-plugin-bal-util@>=2.0.0 <3.0.0
+13 verbose lock docpad-plugin-bal-util@>=2.0.0 <3.0.0 /Users/markberthelemy/.npm/788da495-cpad-plugin-bal-util-2-0-0-3-0-0.lock
+14 silly addNameRange { name: 'docpad-plugin-bal-util',
+14 silly addNameRange   range: '>=2.0.0 <3.0.0',
+14 silly addNameRange   hasData: false }
+15 verbose mapToRegistry name docpad-plugin-bal-util
+16 verbose mapToRegistry uri https://registry.npmjs.org/docpad-plugin-bal-util
+17 verbose request on initialization, where is /docpad-plugin-bal-util
+18 verbose request after pass 1, where is /docpad-plugin-bal-util
+19 verbose request url raw /docpad-plugin-bal-util
+20 verbose request resolving registry [ 'https://registry.npmjs.org/', './docpad-plugin-bal-util' ]
+21 verbose request after pass 2, where is https://registry.npmjs.org/docpad-plugin-bal-util
+22 verbose request no auth needed
+23 info attempt registry request try #1 at 10:18:46
+24 verbose request id db4ca95d48093c6f
+25 http request GET https://registry.npmjs.org/docpad-plugin-bal-util
+26 http 404 https://registry.npmjs.org/docpad-plugin-bal-util
+27 verbose headers { date: 'Thu, 02 Oct 2014 09:18:48 GMT',
+27 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 verbose headers   'content-type': 'application/json',
+27 verbose headers   'cache-control': 'max-age=0',
+27 verbose headers   'content-length': '52',
+27 verbose headers   'accept-ranges': 'bytes',
+27 verbose headers   via: '1.1 varnish',
+27 verbose headers   age: '0',
+27 verbose headers   'x-served-by': 'cache-lcy1134-LCY',
+27 verbose headers   'x-cache': 'MISS',
+27 verbose headers   'x-cache-hits': '0',
+27 verbose headers   'x-timer': 'S1412241527.854431,VS0,VE158',
+27 verbose headers   'keep-alive': 'timeout=10, max=50',
+27 verbose headers   connection: 'Keep-Alive' }
+28 silly registry.get cb [ 404,
+28 silly registry.get   { date: 'Thu, 02 Oct 2014 09:18:48 GMT',
+28 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'cache-control': 'max-age=0',
+28 silly registry.get     'content-length': '52',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '0',
+28 silly registry.get     'x-served-by': 'cache-lcy1134-LCY',
+28 silly registry.get     'x-cache': 'MISS',
+28 silly registry.get     'x-cache-hits': '0',
+28 silly registry.get     'x-timer': 'S1412241527.854431,VS0,VE158',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 silly lockFile 788da495-cpad-plugin-bal-util-2-0-0-3-0-0 docpad-plugin-bal-util@>=2.0.0 <3.0.0
+30 silly lockFile 788da495-cpad-plugin-bal-util-2-0-0-3-0-0 docpad-plugin-bal-util@>=2.0.0 <3.0.0
+31 verbose stack Error: 404 Not Found: docpad-plugin-bal-util
+31 verbose stack     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:258:14)
+31 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:197:65)
+31 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:237:22)
+31 verbose stack     at Request.emit (events.js:98:17)
+31 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1146:14)
+31 verbose stack     at Request.emit (events.js:117:20)
+31 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1097:12)
+31 verbose stack     at IncomingMessage.emit (events.js:117:20)
+31 verbose stack     at _stream_readable.js:929:16
+31 verbose stack     at process._tickCallback (node.js:419:13)
+32 verbose statusCode 404
+33 verbose pkgid docpad-plugin-bal-util
+34 verbose cwd /Users/markberthelemy/Documents/Code/bourgeal2
+35 error Darwin 13.4.0
+36 error argv "node" "/usr/local/bin/npm" "install" "docpad-plugin-bal-util@2" "--save"
+37 error node v0.10.29
+38 error npm  v2.0.2
+39 error code E404
+40 error 404 Not Found: docpad-plugin-bal-util
+40 error 404
+40 error 404 'docpad-plugin-bal-util' is not in the npm registry.
+40 error 404 You should bug the author to publish it (or use the name yourself!)
+40 error 404 It was specified as a dependency of 'no-skeleton.docpad'
+40 error 404
+40 error 404 Note that you can also install from a
+40 error 404 tarball, folder, http url, or git url.
+41 verbose exit [ 1, true ]
