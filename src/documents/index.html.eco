@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+<% for item in @getCollection("documents").findAll({ url: $startsWith: '/intro/' + @currentLang}, [order:1]).toJSON(): %>
+    <div class="article">
+      <%- item.contentRenderedWithoutLayouts %>
+    </div>
+<% end %>
