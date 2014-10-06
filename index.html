@@ -26,6 +26,13 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
 	<body>
+		<script>
+function currentYear() {
+    var d = new Date();
+    var n = d.getFullYear();
+    document.getElementById("year").innerHTML = n;
+}
+</script>
 
 		<!-- Header -->
 			<div id="header" class="skel-layers-fixed">
@@ -230,12 +237,6 @@
 			</div>
 
 	</body>
-	<script>
-function currentYear() {
-    var d = new Date();
-    var n = d.getFullYear();
-    document.getElementById("year").innerHTML = n;
-}
-</script>
+
 </html>
 
