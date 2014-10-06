@@ -25,14 +25,7 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
-	<body>
-		<script>
-function currentYear() {
-    var d = new Date();
-    var n = d.getFullYear();
-    document.getElementById("year").innerHTML = n;
-}
-</script>
+	<body onload="currentYear()">
 
 		<!-- Header -->
 			<div id="header" class="skel-layers-fixed">
@@ -41,7 +34,7 @@ function currentYear() {
 
 					<!-- Logo -->
 						<div id="logo">
-							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+							<span class="image avatar48"><img src="images/cornflower.jpg" alt="" /></span>
 							<h1 id="title">bourgeal</h1>
 							<p>a place to share</p>
 						</div>
@@ -135,13 +128,13 @@ function currentYear() {
 							<div class="row">
 								<div class="4u">
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+										<a href="#" class="image fit"><img src="images/lane1.jpg" alt="" /></a>
 										<header>
 											<h3>Ipsum Feugiat</h3>
 										</header>
 									</article>
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+										<a href="#" class="image fit"><img src="images/candles.jpg" alt="" /></a>
 										<header>
 											<h3>Rhoncus Semper</h3>
 										</header>
@@ -149,13 +142,13 @@ function currentYear() {
 								</div>
 								<div class="4u">
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+										<a href="#" class="image fit"><img src="images/house-front.jpg" alt="" /></a>
 										<header>
 											<h3>Magna Nullam</h3>
 										</header>
 									</article>
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
+										<a href="#" class="image fit"><img src="images/view-barn.jpg" alt="" /></a>
 										<header>
 											<h3>Natoque Vitae</h3>
 										</header>
@@ -163,13 +156,13 @@ function currentYear() {
 								</div>
 								<div class="4u">
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+										<a href="#" class="image fit"><img src="images/settee.jpg" alt="" /></a>
 										<header>
 											<h3>Dolor Penatibus</h3>
 										</header>
 									</article>
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+										<a href="#" class="image fit"><img src="images/gargoyle.jpg" alt="" /></a>
 										<header>
 											<h3>Orci Convallis</h3>
 										</header>
@@ -188,7 +181,7 @@ function currentYear() {
 								<h2>see &amp; do</h2>
 							</header>
 
-							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+							<a href="#" class="image featured"><img src="images/seaside1.jpg" alt="" /></a>
 							
 							<p>Bourgeal is a peaceful hamlet in the d&eacute;partement of Morbihan, southern Brittany. From the front door you can walk down a quiet country lane with views of rolling countryside off into the distance. Depending on the season, why not forage for blackberries, hazelnuts or sweet chestnuts along the way?
 </p>
@@ -213,8 +206,8 @@ function currentYear() {
 							<header>
 								<h2>Location</h2>
 							</header>
-
-							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+							<iframe src="https://mapsengine.google.com/map/embed?mid=zFw0zWMYvqlM.kFacGEkkRI6w" width="100%" height="480"></iframe>
+							
 							
 							<p>Location text here</p>
 
@@ -235,7 +228,13 @@ function currentYear() {
 					</ul>
 				
 			</div>
-
+<script>
+function currentYear() {
+    var d = new Date();
+    var n = d.getFullYear();
+    document.getElementById("year").innerHTML = n;
+}
+</script>
 	</body>
 
 </html>
