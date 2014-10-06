@@ -1,6 +1,6 @@
 <h2 id="<%= @sectionID %>" class="topics"><span><%= @sectionTitle %></span></h2>
 <%= '/' + @sectionID + '/' + @lang %>
-<% for item in @docs.findAll({ url: $startsWith: '/' + @sectionID}, [order:-1]).toJSON(): %>
+<% for item in @docs.findAll({ url: $startsWith: '/bonus' + '/' +'en1'}, [order:-1]).toJSON(): %>
 
 
 
