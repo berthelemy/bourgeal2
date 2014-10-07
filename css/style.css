@@ -733,8 +733,12 @@
 			#main > section.dark
 			{
 				color: #ddd;
-				color: rgba(255,255,255,0.75);
+				color: rgba(255,255,255,0.85);
 				text-shadow: 4px 2px 6px #000;
+			}
+
+			#main > section.dark p {
+				font-size: 1.3em;
 			}
 
 				#main > section.dark h2,
