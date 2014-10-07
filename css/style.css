@@ -748,6 +748,7 @@
 				#main > section.dark h6
 				{
 					color: inherit;
+					font-size: 3em;
 				}
 
 				#main > section.dark strong,
