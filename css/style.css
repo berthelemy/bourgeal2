@@ -734,6 +734,7 @@
 			{
 				color: #ddd;
 				color: rgba(255,255,255,0.75);
+				text-shadow: 4px 2px 6px #000;
 			}
 
 				#main > section.dark h2,
@@ -750,6 +751,7 @@
 				{
 					color: #fff;
 					border-color: inherit;
+					text-shadow: none;
 				}
 
 					#main > section.dark a:hover
