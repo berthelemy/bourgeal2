@@ -234,6 +234,14 @@
 			{
 				float: left;
 				margin: 0 2em 2em 0;
+				width: 20%;
+			}
+
+			.image.right
+			{
+				float: right;
+				margin: 0 0em 2em 2em;
+				width: 20%;
 			}
 			
 			.image.centered
