@@ -800,3 +800,17 @@
 			{
 				background-color: #e8edec;
 			}
+
+@media print {
+	#header, #footer {
+		display: none;
+	}
+	img {
+		max-width: 500px;
+		}
+	#main
+	{
+		margin-left: 0px;
+		width: 100%;
+	}
+}
