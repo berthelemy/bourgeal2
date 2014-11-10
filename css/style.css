@@ -814,3 +814,7 @@
 		width: 100%;
 	}
 }
+
+.clearfloat {
+	clear: both;
+}
