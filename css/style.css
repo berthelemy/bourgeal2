@@ -818,3 +818,12 @@
 .clearfloat {
 	clear: both;
 }
+
+.overlay {
+   background:transparent; 
+   position:relative; 
+   width:80%;
+   height:480px; /* your iframe height */
+   top:480px;  /* your iframe height */
+   margin-top:-480px;  /* your iframe height */
+}
