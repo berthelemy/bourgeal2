@@ -1,5 +1,3 @@
-.column1of3, .column2of3, .column3of3{
-  width: 300px;
-  float: left;
-  margin: 10px;
+.padded10 {
+  padding: 10px;
 }
